@@ -1,0 +1,5 @@
+{
+	"name": "Dagster Experiment",
+	"description": "Experiment to test using Retool as a frontend for Dagster.",
+	"stack": "container"
+}
