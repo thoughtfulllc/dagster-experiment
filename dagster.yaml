@@ -1,0 +1,15 @@
+run_storage:
+    module: dagster_postgres.run_storage
+    class: PostgresRunStorage
+    config:
+        postgres_db:
+            username:
+                env: PG_USER
+            password:
+                env: PG_PASSWORD
+            hostname:
+                env: PG_HOST
+            db_name:
+                env: PG_DATABASE
+            port:
+                env: PG_PORT

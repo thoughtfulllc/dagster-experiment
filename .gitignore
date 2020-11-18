@@ -1,0 +1,7 @@
+__pycache__
+.env
+.logs_queue
+.telemetry
+schedules
+storage
+history
