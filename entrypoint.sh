@@ -6,11 +6,12 @@ export DAGSTER_HOME=/opt/dagster/dagster_home
 # see: https://unix.stackexchange.com/a/453053 - fixes inflated hard link count
 touch /etc/crontab /etc/cron.*/*
 
-service cron start
+# service cron start
 
 # Add all schedules defined by the user
 # dagster schedule up
 ####################################################################################################
 
 # Launch Dagit as a service
+echo $PORT
 DAGSTER_HOME=/opt/dagster/dagster_home dagit -h 0.0.0.0 -p $PORT
