@@ -23,5 +23,3 @@ COPY . .
 RUN chmod +x entrypoint.sh
 
 ENTRYPOINT ["/opt/dagster/app/entrypoint.sh"]
-
-EXPOSE 3000:3000
